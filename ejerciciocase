@@ -1,0 +1,46 @@
+    name=[]
+    lastname=[]
+    age=[]
+    birthday=""
+    email=""
+    password=""
+    confirmPass=""
+    opciom=0
+    while True:
+    print("Bienvenido al sistema de usuario")
+    print("------MENU PRINCIPAL------")
+    print("1. Registrar usuario")
+    print("2. Ver informacion del usuario ")
+    print(" 3. Borrar informacion del usuario ")
+    print(" 4. Modificar informacion del usuario")
+    print("5. Salir")
+    print("-------------------------------------")
+    case1:
+    name=input("ingesa tu nombre:")
+    lastName=input ("ingresa tu apellido:")
+    age=int(input)("ingresa tu edad:")
+    birthyday=input("ingresa tu fecha de nacimiento:")
+    email=input("ingresa tu correo electronico:")
+    password=input("ingresa tu contrasena:")
+    confirmPass=input("Confirma tu contrasena:")
+    case2:
+    print("Nombre:,name,Edad:,age,Fecha de nacimiento,birthday,correo electronico,email,contrasena,password")
+    case3
+    name=""
+    lastName=""
+    age=0
+    birthday=""
+    email=""
+    password=""
+    case4:
+    name=input("ingresa tu nombre:")
+    lastName=input("ingresa tu apellido:")
+    age=int(input)("ingresa tu edad:")
+    birthday=input("ingresa tu fecha de nacimiento:")
+    email=input("ingresa tu correo electronico:")
+    password=input("ingresa tu contrasena: ")
+    case5:
+    print("!Hasta luego¡")
+    break
+    case_:
+    print("Opcion no valida")
